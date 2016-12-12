@@ -50,6 +50,10 @@
 	  (lambda ()
 	    (interactive)
 	    (save-excursion (indent-region (point-min) (point-max) nil))))
+;; disable auto save
+(setq make-backup-files nil)
+(setq auto-save-default nil)
+(setq auto-save-list-file-name nil)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; ivy
