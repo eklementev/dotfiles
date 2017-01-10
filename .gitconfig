@@ -1,0 +1,21 @@
+[user]
+  name = Eugeny Klementev
+  email = eugeny.klementev@sarov-itc.ru
+[core]
+  autocrlf = false
+  safecrlf = true
+  editor = vim
+[push]
+  default = simple
+[alias]
+  st = status
+  co = checkout
+  ci = commit
+  br = branch
+  hist = log --pretty=oneline --graph --decorate=full --all --date=short --abbrev-commit
+  di = diff
+  aa = add --all
+  fp = fetch -p
+[merge]
+  defaultToUpstream = true
+
