@@ -15,7 +15,7 @@
   hist = log --pretty=oneline --graph --decorate=full --all --date=short --abbrev-commit
   di = diff
   aa = add --all
-  fp = fetch -p
+  fp = fetch -p -t
 [merge]
   defaultToUpstream = true
 
