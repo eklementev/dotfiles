@@ -16,6 +16,7 @@
   di = diff
   aa = add --all
   fp = fetch -p -t
+  hr = reset --hard HEAD
 [merge]
   defaultToUpstream = true
 
